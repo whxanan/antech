@@ -72,12 +72,12 @@ echo ""
 # 使用 cat 直接输出拼接好的多个节点
 cat <<EOF
 vless://${UUID}@www.airasia.com:443?encryption=none&security=tls&sni=${ARGO_DOMAIN}&type=ws&host=${ARGO_DOMAIN}&path=%2F${UUID}%3Fed%3D2048#cf_tunnel_airasia_443
-vless://${UUID}@www.visa.com.tw:443?encryption=none&security=tls&sni=${ARGO_DOMAIN}&type=ws&host=${ARGO_DOMAIN}&path=%2F${UUID}%3Fed%3D2048#cf_tunnel_visa_tw_443
-vless://${UUID}@www.visa.com.hk:2053?encryption=none&security=tls&sni=${ARGO_DOMAIN}&type=ws&host=${ARGO_DOMAIN}&path=%2F${UUID}%3Fed%3D2048#cf_tunnel_visa_hk_2053
-vless://${UUID}@www.visa.com.br:8443?encryption=none&security=tls&sni=${ARGO_DOMAIN}&type=ws&host=${ARGO_DOMAIN}&path=%2F${UUID}%3Fed%3D2048#cf_tunnel_visa_br_8443
-vless://${UUID}@usa.visa.com:2053?encryption=none&security=tls&sni=${ARGO_DOMAIN}&type=ws&host=${ARGO_DOMAIN}&path=%2F${UUID}%3Fed%3D2048#cf_tunnel_visa_us_2053
-vless://${UUID}@icook.hk:8443?encryption=none&security=tls&sni=${ARGO_DOMAIN}&type=ws&host=${ARGO_DOMAIN}&path=%2F${UUID}%3Fed%3D2048#cf_tunnel_icook_hk_8443
-vless://${UUID}@time.is:8443?encryption=none&security=tls&sni=${ARGO_DOMAIN}&type=ws&host=${ARGO_DOMAIN}&path=%2F${UUID}%3Fed%3D2048#cf_tunnel_time_is_8443
+vless://${UUID}@wto.org:443?encryption=none&security=tls&sni=${ARGO_DOMAIN}&type=ws&host=${ARGO_DOMAIN}&path=%2F${UUID}%3Fed%3D2048#cf_tunnel_visa_tw_443
+vless://${UUID}@goat.com:2053?encryption=none&security=tls&sni=${ARGO_DOMAIN}&type=ws&host=${ARGO_DOMAIN}&path=%2F${UUID}%3Fed%3D2048#cf_tunnel_visa_hk_2053
+vless://${UUID}@cdn-test.spring.io:8443?encryption=none&security=tls&sni=${ARGO_DOMAIN}&type=ws&host=${ARGO_DOMAIN}&path=%2F${UUID}%3Fed%3D2048#cf_tunnel_visa_br_8443
+vless://${UUID}@plesk.com:2053?encryption=none&security=tls&sni=${ARGO_DOMAIN}&type=ws&host=${ARGO_DOMAIN}&path=%2F${UUID}%3Fed%3D2048#cf_tunnel_visa_us_2053
+vless://${UUID}@pixabay.com:8443?encryption=none&security=tls&sni=${ARGO_DOMAIN}&type=ws&host=${ARGO_DOMAIN}&path=%2F${UUID}%3Fed%3D2048#cf_tunnel_icook_hk_8443
+vless://${UUID}@doordash.com:8443?encryption=none&security=tls&sni=${ARGO_DOMAIN}&type=ws&host=${ARGO_DOMAIN}&path=%2F${UUID}%3Fed%3D2048#cf_tunnel_time_is_8443
 EOF
 
 echo ""
