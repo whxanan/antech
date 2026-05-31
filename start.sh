@@ -2,7 +2,7 @@
 
 # 1. 自动生成一个随机的 UUID
 UUID=$(cat /proc/sys/kernel/random/uuid)
-
+ 
 # 2. 写入 sing-box 的 VLESS+WS 配置文件
 cat <<EOF > /config.json
 {
